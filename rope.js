@@ -15,7 +15,7 @@ class rope{
     display(){
        
         
-        if(this.rope.bodyA){
+       // if(this.rope.bodyA){
             var pointA = this.rope.bodyA.position;
             var pointB = this.rope.bodyB.position;
 
@@ -24,11 +24,11 @@ class rope{
             var A2X=pointB.x+this.offsetX
             var A2Y=pointB.y+this.offsetY
         
-        stroke(0,0,0);
+       // stroke(0,0,0);
          
             strokeWeight(3);
             line(A1X,A1Y,A2X,A2Y);
         
-        }
+       // }
     }    
 }
